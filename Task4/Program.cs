@@ -1,11 +1,7 @@
 ﻿// Напишите программу, которая на вход принимает натуральное число N, 
 // а на выходе показывает его цифры через запятую.
 
-using System;
-
-class Program
-{
-    static void Main()
+void Main()
     {
         try
         {
@@ -33,4 +29,4 @@ class Program
         char[] digits = number.ToString().ToCharArray();
         return string.Join(", ", digits);
     }
-}
+Main();
