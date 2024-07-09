@@ -2,11 +2,7 @@
 // координаты точки (X и Y), причём X ≠ 0 и Y ≠ 0 и выдаёт номер координатной 
 // четверти плоскости, в которой находится эта точка
 
-using System;
-
-class Program
-{
-    static void Main()
+void Main()
     {
         try
         {
@@ -51,4 +47,4 @@ class Program
             return 4;
         }
     }
-}
+Main();
