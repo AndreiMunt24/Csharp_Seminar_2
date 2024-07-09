@@ -2,11 +2,7 @@
 // Задача 1: Напишите программу, которая принимает на вход число и проверяет, 
 // кратно ли оно одновременно 7 и 23.
 
-using System;
-
-class Program
-{
-    static void Main()
+void Main()
     {
         try
         {
@@ -32,4 +28,4 @@ class Program
     {
         return number % 7 == 0 && number % 23 == 0;
     }
-}
+Main();
