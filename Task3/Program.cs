@@ -2,11 +2,7 @@
 // целое число из отрезка [10, 99]
 //  и показывает наибольшую цифру числа.
 
-using System;
-
-class Program
-{
-    static void Main()
+void Main()
     {
         try
         {
@@ -36,5 +32,5 @@ class Program
 
         return (tens > ones) ? tens : ones; // Сравниваем и возвращаем большую цифру
     }
-}
+Main();
 
